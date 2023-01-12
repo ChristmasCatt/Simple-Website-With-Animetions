@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+::-webkit-scrollbar {
+    width: 0;
+}
+/* ONLY CHANGE THESE COLORS */
+:root {
+    --background: #0a0b0c;
+    --secondary-background: #0f1013;
+    --main-text-col: #e7e5e4;
+    --secondary-text-col: #d6d3d1;
+    --dark-text-col: #a8a29e;
+    --main-color: #ff3e3e;
+    --main-hover-color: #ff3e3e;
+    --discord-col: #7289DA;
+}
+body {
+    margin: 0;
+    background-color: var(--background);
+}
+p {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: -100%;
+
+  }
+
+  to {
+    margin-top: 0%;
+
+  }
+}
+
+.bg {
+    background-color: var(--background);
+}
+.dg {
+    background-color: var(--secondary-background);
+}
+.bg-col {
+    background-color: var(--main-color);
+}
+.bg-col-hover {
+    background-color: var(--main-hover-color);
+}
+.text-col {
+    color: var(--main-color);
+}
+.text-col-hover {
+    color: var(--main-hover-color);
+}
+.text-main {
+    color: var(--main-text-col);
+}
+.text-sec {
+    color: var(--secondary-text-col);
+}
+.text-dark {
+    color: var(--dark-text-col);
+}
+.brd-col {
+    border-color: var(--main-color);
+}
+.discord-col {
+    background-color: var(--discord-col);
+}
+.fnt {
+    font-family: 'Lato', sans-serif;
+}
+.content {
+    max-width: 70rem;
+    margin-inline: auto;
+}
+.miAuto {
+    margin-inline: auto;
+}
